@@ -1,0 +1,102 @@
+
+html
+{
+    height: 100%;
+}
+
+body
+{
+    height: 100%;
+}
+
+#container
+{
+    width: 80%;
+    margin: 0px auto;
+
+}
+
+h1
+{
+    font-family: Tahoma, Arial;
+    font-size: 40pt;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+h2
+{
+    color: #38B0E3;
+    font-size: 15pt;
+    font-family: Arial, Helvetica;
+}
+
+
+
+#header
+{
+    background: black;
+    color: white;
+}
+
+
+#productswrapper
+{
+    margin: 0px auto;
+    display: inline-block;
+
+}
+
+
+.product
+{
+    text-align: center;
+    width: 33%;
+    float: left;
+    border-bottom: 1px solid black;
+    min-height: 500px;
+    word-break: break-all;
+}
+
+.price
+{
+    font-weight: bold;
+}
+
+img {
+
+  width: 300px;
+}
+
+.targeturl{
+
+    color: #FFFFFF;
+    line-height: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background: url('../public/images/button.png') repeat;
+    -webkit-border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -khtml-border-radius: 7px 7px 7px 7px;
+    border-radius: 7px 7px 7px 7px;
+    -webkit-box-shadow: 0px 2px 2px #DDDDDD;
+    -moz-box-shadow: 0px 2px 2px #DDDDDD;
+    box-shadow: 0px 2px 2px #DDDDDD;
+    text-decoration: none;
+    padding: 5px;
+}
+
+#footer
+{
+    background: black;
+    color: white;
+    float: left;
+    width: 100%;
+    margin-top: 3%;
+}
+
+#footertext
+{
+    padding: 10px;
+}
